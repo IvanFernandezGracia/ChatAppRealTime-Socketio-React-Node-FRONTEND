@@ -5,6 +5,8 @@ export const useSocket = (serverPath) => {
   const [socket, setSocket] = useState(null);
   const [online, setOnline] = useState(false);
 
+  console.log(serverPath);
+
   const conectarSocket = useCallback(() => {
     const token = localStorage.getItem("token");
 
@@ -32,7 +34,7 @@ export const useSocket = (serverPath) => {
       setOnline(true);
     });
   }, [socket]);
-//ASDASDSAD
+  //ASDASDSAD
   useEffect(() => {
     socket?.on("disconnect", () => {
       setOnline(false);
