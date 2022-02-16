@@ -1,7 +1,6 @@
 # ChatAppRealTime-Socketio-React-Node-FRONTEND
 
-BLABLABLA
-
+Real-time chat application with web token authentication via REST API, JWT, socket-io, password hashing, save data in mongo atlas, etc. There is a single room where users can enter and interact with each other privately one to one 1-1. The online and offline status of the users is visualized and the history is saved in the database, showing the last 10 messages per chat. React is used for the frontend and express for the backend. The frontend is deployed in github page and the backend in heroku.
 
 ## Link ChatAppRealTime-Socketio-React-Node-BACKEND
 https://github.com/IvanFernandezGracia/ChatAppRealTime-Socketio-React-Node-BACKEND
