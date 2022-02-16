@@ -26,35 +26,41 @@ https://user-images.githubusercontent.com/48660555/154371545-bd7273a9-c9c8-42e3-
     </tr>
         <td>
         <ul>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
+          <li>Template HTML to React</li>
+          <li>React Functional Component</li>
+          <li>Structure Folder</li>
+          <li>Router</li>
+          <li>import css</li>
+          <li>.env.production</li>
+          <li>.env.developer</li>
+          <li>sweetalert2</li>
+          <li>useContect</li>
+          <li>useReducer</li>
+          <li>fetch config</li>
         </ul>
       </td>    
         <td>
         <ul>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
+          <li>Router Private</li>
+          <li>Router Public</li>
+          <li>Login & Register</li>
+          <li>Logout</li>
+          <li>MomentJS</li>
+          <li>Animation Scroll</li>
+          <li>Memo & callbacks</li>
+          <li>useEffect</li>
         </ul>
       </td>
         <td>
         <ul>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
-          <li>Cors</li>
+          <li>Socket io Client</li>
+          <li>Connect Disconnect Socket</li>
+          <li>Socket Event</li>
+          <li>useSocket</li>
+          <li>Context Socket</li>
+          <li>emit</li>
+          <li>on</li>
+          <li>callbacks</li>
         </ul>
       </td>
   </tbody>
