@@ -1,10 +1,9 @@
 const baseUrl = process.env.REACT_APP_API_URL;
 
 export const fetchSinToken = async (endpoint, data, method = "GET") => {
-  console.log({ baseUrl,endpoint, data, method });
   try {
     const url = `${baseUrl}/${endpoint}`;
-
+    console.log(url);
     if (method === "GET") {
       const resp = await fetch(url);
       return await resp.json();
