@@ -5,11 +5,8 @@ export const useSocket = (serverPath) => {
   const [socket, setSocket] = useState(null);
   const [online, setOnline] = useState(false);
 
-  console.log(serverPath);
-
   const conectarSocket = useCallback(() => {
     const token = localStorage.getItem("token");
-
     const socketTemp = io.connect(serverPath, {
       transports: ["websocket"],
       autoConnect: true,
@@ -19,6 +16,7 @@ export const useSocket = (serverPath) => {
       },
     });
     setSocket(socketTemp);
+
   }, [serverPath]);
 
   const desconectarSocket = useCallback(() => {

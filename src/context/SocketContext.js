@@ -12,8 +12,12 @@ export const SocketContext = createContext();
 
 export const SocketProvider = ({ children }) => {
   const { socket, online, conectarSocket, desconectarSocket } = useSocket(
-    process.env.REACT_APP_API_URL
+    process.env.REACT_APP_API_URL_BASE
   );
+
+  console.log("SOCKET", process.env.REACT_APP_API_URL_BASE);
+
+  console.log("SOCKET", socket);
 
   const { auth } = useContext(AuthContext);
 
